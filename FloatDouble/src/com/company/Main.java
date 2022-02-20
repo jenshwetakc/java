@@ -27,7 +27,12 @@ public class Main {
         System.out.println("the value of kilo = " + convertedkilo);
 
 
+// char
 
+        char myChar = 'D';
+        char myUnicodeChar = '\u0044';
+        System.out.println(myChar);
+        System.out.println(myUnicodeChar);
 
 
     }
