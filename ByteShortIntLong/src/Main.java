@@ -39,8 +39,11 @@ public class Main {
         int intVariable =20;
         byte byteVariable = 12;
         short shortVariable = 324;
-        long heyLong =( long)(50000 + 10*(intVariable+byteVariable+shortVariable));
-        System.out.println("long variable = " +heyLong);
+     //   long heyLong =( long)(50000 + 10*(intVariable+byteVariable+shortVariable));
+       // System.out.println("long variable = " +heyLong);
+
+        long longSolution = 50000L + 10L *(byteVariable +intVariable+ shortVariable);
+        System.out.println("next solution = " + longSolution);
     }
 
 }
