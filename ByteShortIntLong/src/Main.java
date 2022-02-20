@@ -12,6 +12,9 @@ public class Main {
 
         System.out.println("Busted maximum value = " + (myMaxIntValue +1));
 
+        byte myMinByteValue = Byte.MIN_VALUE;
+        System.out.println("Byte minimum value = " + myMinByteValue);
+
     }
 
 }
