@@ -9,5 +9,11 @@ public class Main {
 
         float myMaxFloatValue = Float.MIN_VALUE;
         System.out.println("min float value  = " + myMaxFloatValue);
+
+        long myMinLongValue = Long.MIN_VALUE;
+        System.out.println("min Long value  = " + myMinLongValue);
+
+        long myMaxLongValue = Long.MIN_VALUE;
+        System.out.println("min Long value  = " + myMaxLongValue);
     }
 }
