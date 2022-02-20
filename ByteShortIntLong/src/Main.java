@@ -31,6 +31,9 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long maximum value =" + myMaxLongValue);
 
+        byte newByteValue = (byte) (myMaxByteValue/2);
+        System.out.println("new byte value using type casting = "  + newByteValue);
+
     }
 
 }
