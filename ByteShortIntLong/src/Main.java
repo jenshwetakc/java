@@ -15,6 +15,9 @@ public class Main {
         byte myMinByteValue = Byte.MIN_VALUE;
         System.out.println("Byte minimum value = " + myMinByteValue);
 
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte maximum vlue =" + myMaxByteValue);
+
     }
 
 }
