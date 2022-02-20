@@ -16,7 +16,12 @@ public class Main {
         System.out.println("Byte minimum value = " + myMinByteValue);
 
         byte myMaxByteValue = Byte.MAX_VALUE;
-        System.out.println("Byte maximum vlue =" + myMaxByteValue);
+        System.out.println("Byte maximum value =" + myMaxByteValue);
+
+
+        short myMinShortValue = Short.MIN_VALUE;
+        System.out.println("Short minimum value = " + myMinShortValue);
+
 
     }
 
