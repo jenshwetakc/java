@@ -22,6 +22,8 @@ public class Main {
         short myMinShortValue = Short.MIN_VALUE;
         System.out.println("Short minimum value = " + myMinShortValue);
 
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short maximum value =" + myMaxShortValue);
 
     }
 
