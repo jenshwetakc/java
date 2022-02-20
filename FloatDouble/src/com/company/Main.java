@@ -15,5 +15,20 @@ public class Main {
 
         long myMaxLongValue = Long.MIN_VALUE;
         System.out.println("min Long value  = " + myMaxLongValue);
+
+        float myfloat = (float) 5.25;
+
+        //challenge
+
+        double  convertedkilo ;
+        double pound = 20d;
+
+        convertedkilo = pound *0.45359237;
+        System.out.println("the value of kilo = " + convertedkilo);
+
+
+
+
+
     }
 }
