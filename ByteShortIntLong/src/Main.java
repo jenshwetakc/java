@@ -34,6 +34,13 @@ public class Main {
         byte newByteValue = (byte) (myMaxByteValue/2);
         System.out.println("new byte value using type casting = "  + newByteValue);
 
+        //challenge
+
+        int intVariable =20;
+        byte byteVariable = 12;
+        short shortVariable = 324;
+        long heyLong =( long)(50000 + 10*(intVariable+byteVariable+shortVariable));
+        System.out.println("long variable = " +heyLong);
     }
 
 }
